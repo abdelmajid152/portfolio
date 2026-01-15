@@ -2,9 +2,13 @@
   Abdelmajid Yahya - Portfolio<br/>
   <a href="https://github.com/abdelmajid152" target="_blank">github.com/abdelmajid152</a>
 </h2>
+<br/>
+<div align="center">
+  <img alt="Demo" src="./Images/read_me.png" width="400" />
+  <img alt="Demo" src="./Images/read_me1.png" width="400" />
+</div>
 
 <br/>
-
 <center>
 
 [![Built with Love](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
