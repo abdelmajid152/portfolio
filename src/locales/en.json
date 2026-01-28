@@ -1,89 +1,89 @@
 {
-  "nav": {
-    "home": "الرئيسية",
-    "about": "من أنا",
-    "projects": "المشاريع",
-    "resume": "السيرة الذاتية"
-  },
-  "home": {
-    "greeting": "مرحباً 👋",
-    "iam": "أنا",
-    "findMeOn": "تواصل معي",
-    "connectWithMe": "يسعدني التواصل معك في أي وقت"
-  },
-  "home2": {
-    "introduce": "نبذة",
-    "introduceHighlight": "عن",
-    "introduceSuffix": "نفسي",
-    "description1": "أنا مطور برمجيات بخبرة تزيد عن 3 سنوات، شغوف ببناء تطبيقات هاتف عالية الأداء وكتابة كود نظيف وقابل للتوسع.",
-    "specialize": "أعمل بشكل أساسي باستخدام",
-    "specializeStack": "Flutter و Dart و Firebase",
-    "specializeEnd": "— مع التركيز على تقديم تطبيقات جاهزة للإنتاج وتجربة مستخدم سلسة.",
-    "expertise": "تشمل خبرتي العملية",
-    "expertiseStack": "الهندسة النظيفة، وإدارة الحالة (GetX, BLoC, Provider)،",
-    "expertiseEnd": "وتحسين أداء التطبيقات لدعم التوسع والاستقرار.",
-    "explore": "أسعى دائماً لتطبيق خبرتي في بناء مشاريع باستخدام",
-    "exploreStack": "Supabase",
-    "exploreAnd": "إلى جانب",
-    "exploreEnd": "تكامل واجهات REST APIs وحلول الخلفية."
-  },
-  "type": {
-    "title1": "مطور Flutter",
-    "title2": "مطور برمجيات",
-    "title3": "بناء تطبيقات حقيقية",
-    "title4": "شغوف بالهندسة النظيفة"
-  },
-  "about": {
-    "knowWho": "تعرف على",
-    "iam": "من أنا",
-    "professionalSkillset": "المهارات",
-    "skillset": "الاحترافية",
-    "tools": "الأدوات",
-    "iUse": "التي أستخدمها"
-  },
-  "aboutCard": {
-    "intro": "مرحباً، أنا",
-    "name": "عبدالماجد يحي",
-    "role": "أعمل كمطور",
-    "roleHighlight": "Flutter",
-    "experience": "بخبرة تزيد عن",
-    "experienceYears": "3 سنوات",
-    "experienceEnd": "في تطوير تطبيقات جاهزة للإنتاج.",
-    "focus": "أركز على بناء حلول هاتف قابلة للتوسع باستخدام",
-    "stack1": "Flutter",
-    "stack2": "Firebase",
-    "stack3": "Supabase",
-    "beyond": "إلى جانب تطوير التطبيقات، أحرص على:",
-    "activity1": "إتقان مبادئ الكود النظيف 🏗️",
-    "activity2": "تطبيق وإتقان إدارة الحالة المتقدمة (GetX, BLoC) 🧠",
-    "activity3": "تحسين أداء تطبيقات الهاتف ⚡",
-    "quote": "\"الكود النظيف يبدو دائماً وكأنه كُتب بواسطة شخص يهتم.\""
-  },
-  "projects": {
-    "recentWorks": "أحدث",
-    "works": "أعمالي",
-    "subtitle": "فيما يلي مجموعة من المشاريع التي عملت عليها مؤخراً.",
-    "github": "GitHub",
-    "demo": "عرض",
-    "blog": "مدونة",
-    "shtgoolTitle": "لعبة شتقول",
-    "shtgoolDesc": "تطبيق مسابقات متعدد المنصات تجاوز 25,000 تحميل، يدعم تسجيل المستخدمين وقواعد بيانات لحظية. مبني باستخدام Flutter و GetX و Firebase.",
-    "aqarakTitle": "تطبيق عقارك",
-    "aqarakDesc": "تطبيق هاتف لشراء وتأجير العقارات، يتميز ببحث متقدم وفلاتر ذكية للعروض. مبني باستخدام Flutter و GetX و Firebase.",
-    "statusSaverTitle": "حافظ حالات واتساب",
-    "statusSaverDesc": "تطبيق مساعد لعرض وحفظ حالات واتساب (صور وفيديوهات) مباشرة إلى المعرض، مع دعم التخزين المحلي. مبني باستخدام Flutter و GetX.",
-    "diyaAlqalbTitle": "ضياء القلب",
-    "diyaAlqalbDesc": "تطبيق شامل يركز على تجربة مستخدم بسيطة وسهلة، مع جلب البيانات في الوقت الفعلي عبر REST API. مبني باستخدام Flutter و GetX."
-  },
-  "resume": {
-    "downloadCV": "تحميل السيرة الذاتية"
-  },
-  "github": {
-    "daysI": "أيام",
-    "code": "البرمجة"
-  },
-  "footer": {
-    "designedBy": "تم التصميم والتطوير بواسطة عبدالماجد يحي",
-    "copyright": "جميع الحقوق محفوظة"
-  }
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "resume": "Resume"
+    },
+    "home": {
+        "greeting": "Hi There!",
+        "iam": "I'M",
+        "findMeOn": "Find Me On",
+        "connectWithMe": "Feel free to connect with me"
+    },
+    "home2": {
+        "introduce": "LET ME",
+        "introduceHighlight": "INTRODUCE",
+        "introduceSuffix": "MYSELF",
+        "description1": "I'm a Software Developer with over 3 years of experience, passionate about building high-performance mobile applications and clean codebases.",
+        "specialize": "I specialize in",
+        "specializeStack": "Flutter, Dart, and Firebase",
+        "specializeEnd": "— delivering production-level apps with a focus on seamless user experiences.",
+        "expertise": "My expertise includes",
+        "expertiseStack": "Clean Architecture, State Management (GetX, BLoC, Provider),",
+        "expertiseEnd": "and optimizing app performance for scale.",
+        "explore": "Whenever possible, I apply my knowledge to build projects with",
+        "exploreStack": "Supabase",
+        "exploreAnd": "and explore",
+        "exploreEnd": "REST APIs and Backend integrations."
+    },
+    "type": {
+        "title1": "Flutter Developer",
+        "title2": "Software Developer",
+        "title3": "Building Real-World Apps",
+        "title4": "Clean Architecture Enthusiast"
+    },
+    "about": {
+        "knowWho": "Know Who",
+        "iam": "I'M",
+        "professionalSkillset": "Professional",
+        "skillset": "Skillset",
+        "tools": "Tools",
+        "iUse": "I use"
+    },
+    "aboutCard": {
+        "intro": "Hi everyone! I'm",
+        "name": "Abdelmjid Yahya",
+        "role": "I'm a",
+        "roleHighlight": "Flutter Developer",
+        "experience": "with over",
+        "experienceYears": "3 years of experience",
+        "experienceEnd": "in delivering production-level applications.",
+        "focus": "My focus is on building scalable mobile solutions using",
+        "stack1": "Flutter",
+        "stack2": "Firebase",
+        "stack3": "Supabase",
+        "beyond": "Beyond developing apps, I am deeply interested in:",
+        "activity1": "Mastering Clean Architecture 🏗️",
+        "activity2": "Exploring Advanced State Management (GetX, BLoC) 🧠",
+        "activity3": "Performance Optimization in Mobile Apps ⚡",
+        "quote": "\"Clean code always looks like it was written by someone who cares.\""
+    },
+    "projects": {
+        "recentWorks": "My Recent",
+        "works": "Works",
+        "subtitle": "Here are a few projects I've worked on recently.",
+        "github": "GitHub",
+        "demo": "Demo",
+        "blog": "Blog",
+        "shtgoolTitle": "Shtgool Mobile Quiz Game",
+        "shtgoolDesc": "Cross-platform quiz application with over 25,000 downloads. Features authentication and real-time database services. Built with Flutter, GetX, and Firebase.",
+        "aqarakTitle": "Aqarak Real Estate App",
+        "aqarakDesc": "A mobile application for buying and renting real estate properties, featuring advanced search and listing filters. Built with Flutter, GetX, and Firebase.",
+        "statusSaverTitle": "WhatsApp Status Saver",
+        "statusSaverDesc": "A utility application designed to view and save WhatsApp statuses (images & videos) directly to the gallery. Built with Flutter, GetX, and Local Storage.",
+        "diyaAlqalbTitle": "Diya Alqalb",
+        "diyaAlqalbDesc": "Comprehensive application focused on intuitive UI and accessibility, with API updates for real-time data retrieval. Built with Flutter, GetX, and REST API."
+    },
+    "resume": {
+        "downloadCV": "Download CV"
+    },
+    "github": {
+        "daysI": "Days I",
+        "code": "Code"
+    },
+    "footer": {
+        "designedBy": "Designed and Developed by Abdelmjid Yahya",
+        "copyright": "Copyright"
+    }
 }

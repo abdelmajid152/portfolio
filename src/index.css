@@ -12,6 +12,19 @@ body {
 
 /* Arabic font support */
 html[dir="rtl"] body,
-html[dir="rtl"] * {
+html[dir="rtl"] *,
+html[dir="rtl"] p,
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] h6,
+html[dir="rtl"] span,
+html[dir="rtl"] a,
+html[dir="rtl"] li,
+html[dir="rtl"] div {
   font-family: "Cairo", sans-serif !important;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
 }
