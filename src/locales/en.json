@@ -1,0 +1,89 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "resume": "Resume"
+    },
+    "home": {
+        "greeting": "Hi There!",
+        "iam": "I'M",
+        "findMeOn": "Find Me On",
+        "connectWithMe": "Feel free to connect with me"
+    },
+    "home2": {
+        "introduce": "LET ME",
+        "introduceHighlight": "INTRODUCE",
+        "introduceSuffix": "MYSELF",
+        "description1": "I'm a Software Developer with over 3 years of experience, passionate about building high-performance mobile applications and clean codebases.",
+        "specialize": "I specialize in",
+        "specializeStack": "Flutter, Dart, and Firebase",
+        "specializeEnd": "— delivering production-level apps with a focus on seamless user experiences.",
+        "expertise": "My expertise includes",
+        "expertiseStack": "Clean Architecture, State Management (GetX, BLoC, Provider),",
+        "expertiseEnd": "and optimizing app performance for scale.",
+        "explore": "Whenever possible, I apply my knowledge to build projects with",
+        "exploreStack": "Supabase",
+        "exploreAnd": "and explore",
+        "exploreEnd": "REST APIs and Backend integrations."
+    },
+    "type": {
+        "title1": "Flutter Developer",
+        "title2": "Software Developer",
+        "title3": "Building Real-World Apps",
+        "title4": "Clean Architecture Enthusiast"
+    },
+    "about": {
+        "knowWho": "Know Who",
+        "iam": "I'M",
+        "professionalSkillset": "Professional",
+        "skillset": "Skillset",
+        "tools": "Tools",
+        "iUse": "I use"
+    },
+    "aboutCard": {
+        "intro": "Hi everyone! I'm",
+        "name": "Abdelmjid Yahya",
+        "role": "I'm a",
+        "roleHighlight": "Flutter Developer",
+        "experience": "with over",
+        "experienceYears": "3 years of experience",
+        "experienceEnd": "in delivering production-level applications.",
+        "focus": "My focus is on building scalable mobile solutions using",
+        "stack1": "Flutter",
+        "stack2": "Firebase",
+        "stack3": "Supabase",
+        "beyond": "Beyond developing apps, I am deeply interested in:",
+        "activity1": "Mastering Clean Architecture 🏗️",
+        "activity2": "Exploring Advanced State Management (GetX, BLoC) 🧠",
+        "activity3": "Performance Optimization in Mobile Apps ⚡",
+        "quote": "\"Clean code always looks like it was written by someone who cares.\""
+    },
+    "projects": {
+        "recentWorks": "My Recent",
+        "works": "Works",
+        "subtitle": "Here are a few projects I've worked on recently.",
+        "github": "GitHub",
+        "demo": "Demo",
+        "blog": "Blog",
+        "shtgoolTitle": "Shtgool Mobile Quiz Game",
+        "shtgoolDesc": "Cross-platform quiz application with over 25,000 downloads. Features authentication and real-time database services. Built with Flutter, GetX, and Firebase.",
+        "aqarakTitle": "Aqarak Real Estate App",
+        "aqarakDesc": "A mobile application for buying and renting real estate properties, featuring advanced search and listing filters. Built with Flutter, GetX, and Firebase.",
+        "statusSaverTitle": "WhatsApp Status Saver",
+        "statusSaverDesc": "A utility application designed to view and save WhatsApp statuses (images & videos) directly to the gallery. Built with Flutter, GetX, and Local Storage.",
+        "diyaAlqalbTitle": "Diya Alqalb",
+        "diyaAlqalbDesc": "Comprehensive application focused on intuitive UI and accessibility, with API updates for real-time data retrieval. Built with Flutter, GetX, and REST API."
+    },
+    "resume": {
+        "downloadCV": "Download CV"
+    },
+    "github": {
+        "daysI": "Days I",
+        "code": "Code"
+    },
+    "footer": {
+        "designedBy": "Designed and Developed by Abdelmjid Yahya",
+        "copyright": "Copyright"
+    }
+}

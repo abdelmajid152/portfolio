@@ -1,41 +1,42 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { useTranslation } from "react-i18next";
 
 function AboutCard() {
+  const { t } = useTranslation();
+
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Abdelmjid Yahya</span>.
+            {t("aboutCard.intro")} <span className="purple">{t("aboutCard.name")}</span>.
             <br />
-            I’m a <span className="purple">Flutter Developer</span> with
-            over <span className="purple">3 years of experience</span> in delivering
-            production-level applications.
+            {t("aboutCard.role")} <span className="purple">{t("aboutCard.roleHighlight")}</span> {t("aboutCard.experience")} <span className="purple">{t("aboutCard.experienceYears")}</span> {t("aboutCard.experienceEnd")}
             <br />
-            My focus is on building scalable mobile solutions using
-            <span className="purple"> Flutter</span>, <span className="purple">Firebase</span>,
-            and <span className="purple">Supabase</span>.
+            {t("aboutCard.focus")}
+            <span className="purple"> {t("aboutCard.stack1")}</span>, <span className="purple">{t("aboutCard.stack2")}</span>,
+            {" "}{t("aboutCard.focus").includes("and") ? "" : "و"} <span className="purple">{t("aboutCard.stack3")}</span>.
             <br />
             <br />
-            Beyond developing apps, I am deeply interested in:
+            {t("aboutCard.beyond")}
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Mastering Clean Architecture 🏗️
+              <ImPointRight /> {t("aboutCard.activity1")}
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring Advanced State Management (GetX, BLoC) 🧠
+              <ImPointRight /> {t("aboutCard.activity2")}
             </li>
             <li className="about-activity">
-              <ImPointRight /> Performance Optimization in Mobile Apps ⚡
+              <ImPointRight /> {t("aboutCard.activity3")}
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Clean code always looks like it was written by someone who cares."{" "}
+            {t("aboutCard.quote")}{" "}
           </p>
           <footer className="blockquote-footer">Abdelmjid</footer>
         </blockquote>

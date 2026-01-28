@@ -2,47 +2,49 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { useTranslation } from "react-i18next";
 
 function Home2() {
+  const { t } = useTranslation();
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              {t("home2.introduce")} <span className="purple"> {t("home2.introduceHighlight")} </span> {t("home2.introduceSuffix")}
             </h1>
             <p className="home-about-body">
-              I’m a Software Developer with over 3 years of experience, passionate about building
-              high-performance mobile applications and clean codebases.
+              {t("home2.description1")}
               <br />
               <br />
-              I specialize in
+              {t("home2.specialize")}
               <i>
                 <b className="purple">
                   {" "}
-                  Flutter, Dart, and Firebase{" "}
+                  {t("home2.specializeStack")}{" "}
                 </b>
               </i>
-              — delivering production-level apps with a focus on seamless user experiences.
+              {t("home2.specializeEnd")}
               <br />
               <br />
-              My expertise includes
+              {t("home2.expertise")}
               <i>
                 <b className="purple">
                   {" "}
-                  Clean Architecture, State Management (GetX, BLoC, Provider),{" "}
+                  {t("home2.expertiseStack")}{" "}
                 </b>
               </i>
-              and optimizing app performance for scale.
+              {t("home2.expertiseEnd")}
               <br />
               <br />
-              Whenever possible, I apply my knowledge to build projects with
-              <b className="purple"> Supabase </b> and explore
+              {t("home2.explore")}
+              <b className="purple"> {t("home2.exploreStack")} </b>{t("home2.exploreAnd")}
               <i>
                 <b className="purple">
                   {" "}
-                  REST APIs and Backend integrations.
+                  {t("home2.exploreEnd")}
                 </b>
               </i>
             </p>

@@ -18,6 +18,74 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+/* --------- */
+/* RTL Support for Arabic */
+/* --------- */
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="rtl"] .home-content,
+html[dir="rtl"] .home-about-body,
+html[dir="rtl"] .about-activity {
+  text-align: right;
+}
+
+html[dir="rtl"] .heading {
+  padding-left: 0 !important;
+  padding-right: 50px !important;
+}
+
+html[dir="rtl"] .heading-name {
+  padding-left: 0 !important;
+  padding-right: 45px !important;
+}
+
+html[dir="rtl"] .navbar-nav .nav-item {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+html[dir="rtl"] .social-icons {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+html[dir="rtl"] .nav-link {
+  text-align: right;
+}
+
+html[dir="rtl"] .home-about-description h1,
+html[dir="rtl"] .project-heading {
+  direction: rtl;
+}
+
+html[dir="rtl"] .tech-icons-text {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+html[dir="rtl"] .resume .resume-item {
+  padding: 0 25px 10px 0;
+  border-left: none;
+  border-right: 2px solid #8a49a8;
+}
+
+html[dir="rtl"] .resume .resume-item::before {
+  left: auto;
+  right: -9px;
+}
+
+html[dir="rtl"] .resume .resume-item ul {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+html[dir="rtl"] .language-btn {
+  margin-left: 0 !important;
+  margin-right: 10px !important;
+}
+
 button:focus {
   box-shadow: none !important;
 }
